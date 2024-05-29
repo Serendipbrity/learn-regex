@@ -1,0 +1,106 @@
+[
+  {
+    "description": "Match a, b, or c",
+    "regex": "[abc]"
+  },
+  {
+    "description": "Match any lowercase letter",
+    "regex": "[a-z]"
+  },
+  {
+    "description": "Match any character that is not a lowercase letter",
+    "regex": "[^a-z]"
+  },
+  {
+    "description": "Match cat or dog",
+    "regex": "(cat|dog)"
+  },
+  {
+    "description": "Matches 1 or more occurrences of the preceding element",
+    "regex": "+"
+  },
+  {
+    "description": "Matches 0 or more occurrences of the preceding element",
+    "regex": "*"
+  },
+  {
+    "description": "Matches the end of a string",
+    "regex": "$"
+  },
+  {
+    "description": "Matches the beginning of a string",
+    "regex": "^"
+  },
+  {
+    "description": "Matches any digit (0-9)",
+    "regex": "\\d"
+  },
+  {
+    "description": "Matches any non-digit",
+    "regex": "\\D"
+  },
+  {
+    "description": "Matches any word character (alphanumeric + underscore)",
+    "regex": "\\w"
+  },
+  {
+    "description": "Matches any non-word character",
+    "regex": "\\W"
+  },
+  {
+    "description": "Matches any whitespace character (spaces, tabs, line breaks)",
+    "regex": "\\s"
+  },
+  {
+    "description": "Matches any non-whitespace character",
+    "regex": "\\S"
+  },
+  {
+    "description": "Matches exactly n occurrences of the preceding element",
+    "regex": "{n}"
+  },
+  {
+    "description": "Matches n or more occurrences of the preceding element",
+    "regex": "{n,}"
+  },
+  {
+    "description": "Matches between n and m occurrences of the preceding element",
+    "regex": "{n,m}"
+  },
+  {
+    "description": "Matches any single character except newline",
+    "regex": "."
+  },
+  {
+    "description": "Escapes a special character",
+    "regex": "\\"
+  },
+  {
+    "description": "Matches a word boundary",
+    "regex": "\\b"
+  },
+  {
+    "description": "Matches a non-word boundary",
+    "regex": "\\B"
+  },
+  {
+    "description": "Matches 0 or 1 occurrence of the preceding element",
+    "regex": "?"
+  },
+  {
+    "description": "Matches any single character in a given set",
+    "regex": "[]"
+  },
+  {
+    "description": "Matches any single character not in a given set",
+    "regex": "[^]"
+  },
+  {
+    "description": "Groups multiple tokens together",
+    "regex": "()"
+  },
+  {
+    "description": "Matches either the left or the right side of the vertical bar",
+    "regex": "|"
+  }
+]
